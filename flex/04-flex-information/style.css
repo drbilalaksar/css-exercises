@@ -1,23 +1,35 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  margin: 0;
 }
-
 img {
   width: 100px;
   height: 100px;
+
 }
 .title {
-  font-size: 36px;
-  font-weight: 900;
+  font-size: 30px;
+  font-weight: 600;
+
+}
+.father {
+  display: block;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+
+}
+.container {
+  display: flex;
+  padding: 40px;
+  gap: 20px;
+
+}
+.content {
+  font-size: 14px;
+  font-weight: 100;
+
+
 }
 
-/* do not edit this footer */
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 52px;
-  display: flex;
-  align-items: center;
-}
