@@ -6,7 +6,6 @@ img {
   width: 100px;
   height: 100px;
 }
-
 .title {
   font-size: 36px;
   font-weight: 900;
@@ -21,6 +20,4 @@ img {
   height: 52px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  background: #eee;
 }
